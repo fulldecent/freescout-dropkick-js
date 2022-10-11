@@ -1,0 +1,12 @@
+{
+    "name": "DropkickJS",
+    "alias": "dropkickjs",
+    "description": "Dropkick JS injects your custom JavaScript file at the bottom of every page view.",
+    "version": "1.0.0",
+    "detailsUrl": "https://github.com/fulldecent/freescout-dropkickjs",
+    "author": "William Entriken",
+    "providers": [
+        "Modules\\DropkickJS\\Providers\\DropkickJSServiceProvider"
+    ],
+    "requires": []
+}

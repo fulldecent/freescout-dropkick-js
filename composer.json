@@ -1,0 +1,25 @@
+{
+    "name": "freescout/dropkickjs",
+    "description": "",
+    "authors": [
+        {
+            "name": "William Entriken",
+            "email": "github.com@phor.net"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\DropkickJS\\Providers\\DropkickJSServiceProvider"
+            ],
+            "aliases": {                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\DropkickJS\\": ""
+        }
+    }
+}
+

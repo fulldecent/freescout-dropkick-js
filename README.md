@@ -35,7 +35,7 @@ Other installations are possible, but not supported here.
 5. SSH into the server and update permissions on that folder.
 
    ```sh
-   chown -r www-data:www-data /var/www/html/Modules/DropkickJS/
+   chown -R www-data:www-data /var/www/html/Modules/DropkickJS/
    ```
 
 6. Access your admin modules page like https://freescout.example.com/modules/list.

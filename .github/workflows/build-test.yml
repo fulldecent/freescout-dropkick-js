@@ -89,6 +89,7 @@ jobs:
           unzip -l dist/DropkickJS.zip
           unzip -l dist/DropkickJS.zip | grep -q 'DropkickJS/module.json'
           unzip -l dist/DropkickJS.zip | grep -q 'DropkickJS/Providers/DropkickJSServiceProvider.php'
+          unzip -l dist/DropkickJS.zip | grep -q 'DropkickJS/Public/img/module.png'
           unzip -l dist/DropkickJS.zip | grep -q 'DropkickJS/version.txt'
 
       # Fork pull requests get a read-only token. Attestation needs id-token write,

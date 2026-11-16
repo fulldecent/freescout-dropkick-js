@@ -1,0 +1,10 @@
+* text=auto eol=lf
+
+# The published archive is the FreeScout module. CI keeps the rest.
+/.github export-ignore
+/.gitignore export-ignore
+/.release-please-manifest.json export-ignore
+/CHANGELOG.md export-ignore
+/dist export-ignore
+/release-please-config.json export-ignore
+/*.png export-ignore

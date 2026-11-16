@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# https://github.com/github/gitignore/blob/main/Composer.gitignore
+composer.phar
+/vendor/
+
+# Release artifacts
+/dist/
